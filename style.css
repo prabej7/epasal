@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans Devanagari', sans-serif;
+    
+}
+
+
+.main{
+    background-image: url(./images/prd-1.jpg);
+    background-size: cover;
+}
+.nav-bar{
+    background-color: #1bab6f46;
+    color: white;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title{
+    margin-left: 30px;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu-links{
+    color: white;
+    padding: 10px;
+}
+
+.shop-btn{
+    padding: 10px;
+    border: none;
+    font-weight: 700;
+    background-color: #18835a;
+    color: white;
+    border-radius: 20rem;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.2s ease;
+}
+
+.shop-btn:hover{
+    transform: scale(1.15);
+    transition: transform 0.2s ease;
+}
+
+.menu-links:hover{
+    background-color: white;
+    color: #1bab6e;
+    border-radius: 5px
+}
+
+.prd-img{
+    height: 20rem;
+    border-radius: 10px;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    gap: 50px;
+}
+
+h2{
+    position: relative;
+    top: 11rem;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    font-size: 30px;
+}
+
+.prd-img{
+    width: 200px;
+    object-fit: cover;
+}
+
+.hero-section{
+    height: 87vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-text{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    text-shadow: 0px 0px 50px black;
+}
+.prd{
+    transform: scale(1);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+.prd:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+.hero-section{
+    margin-top: 100px;
+    background-image: url(./images/hero-img.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
+
+
+.Lorem{
+    font-size: 16px;
+    width: 50%;
+}
+
+.centered-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+@media (max-width:1000px) {
+    .products{
+        flex-wrap: wrap;
+    }
+    .nav-bar{
+        flex-wrap: wrap;
+        height: 120px;
+    }
+}
